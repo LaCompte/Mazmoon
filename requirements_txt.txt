@@ -1,0 +1,41 @@
+# La Compte Arabic Script Editor - Production Dependencies
+
+# Core GUI Framework
+PyQt5>=5.15.0
+# Alternative: PyQt6>=6.2.0
+
+# Text Processing and Unicode Support
+fonttools>=4.33.0
+uharfbuzz>=0.30.0
+python-bidi>=0.4.2
+unicodedata2>=14.0.0
+
+# Document Processing
+lxml>=4.9.0
+python-docx>=0.8.11
+reportlab>=3.6.0
+
+# Font and Typography
+freetype-py>=2.3.0
+pillow>=9.0.0
+
+# System Integration
+psutil>=5.9.0
+appdirs>=1.4.4
+packaging>=21.0
+
+# Configuration and Settings
+configparser>=5.2.0
+toml>=0.10.2
+
+# Internationalization
+babel>=2.10.0
+polib>=1.1.1
+
+# Performance and Caching
+cachetools>=5.0.0
+memory-profiler>=0.60.0
+
+# Cross-platform Compatibility
+pathlib2>=2.3.7; python_version<"3.4"
+typing-extensions>=4.0.0; python_version<"3.8"

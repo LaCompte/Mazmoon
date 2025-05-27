@@ -1,4 +1,4 @@
-# La Compte Arabic Script Editor
+# Mazmoon - La Compte Arabic and Urdu Script Editor and Office Suite
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -12,7 +12,7 @@ A modern, Unicode-based office suite specialized for Arabic script languages (Ar
 ### 🎯 Core Capabilities
 - **Native RTL Support** - Proper right-to-left text flow and cursor behavior
 - **Unicode Compliance** - Standard UTF-8 text storage for universal compatibility
-- **Cross-Platform** - Runs on Linux, Windows 7+, and macOS
+- **Cross-Platform** - Runs on Linux, Windows 7+
 - **Lightning Fast** - Sub-2-second startup, 60fps text rendering
 - **Professional UI** - MS Office-inspired ribbon interface
 
@@ -110,11 +110,7 @@ This project is built on extensive research into:
 
 ## 📖 Documentation
 
-- [User Guide](docs/user-guide.md) - Complete user documentation
-- [Developer Guide](docs/developer-guide.md) - Development setup and contribution guide
-- [Architecture Overview](docs/architecture.md) - Technical architecture documentation
-- [Arabic Typography Reference](docs/arabic-typography.md) - Typography implementation details
-- [Progress Reports](docs/progress-reports/) - Weekly development updates
+*Documentation conerning the project is made available on the github repository.*
 
 ## 🤝 Contributing
 

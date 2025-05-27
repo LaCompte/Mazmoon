@@ -140,7 +140,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 La Compte is a registered firm focused on web design, graphic design, database management, and organizational infrastructure solutions. We're passionate about open source development and building tools that serve underserved communities.
 
-- **Website**: [Coming Soon]
+- **Website**: <a href="https:la-compte.com">La Compte</a>
 - **GitHub**: [@lacompte](https://github.com/lacompte)
 - **Contact**: [Contact Information]
 

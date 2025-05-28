@@ -1,10 +1,10 @@
-# La Compte Arabic Script Editor - Architecture Overview
+# Mazmoon - La Compte Urdu and Arabic Script Editor and Office Suite - Architecture Overview
 
-## 🏗️ System Architecture
+## System Architecture
 
-The La Compte Arabic Script Editor is built using a modular, layered architecture designed for performance, maintainability, and cross-platform compatibility.
+Mazmoon is built using a modular, layered architecture designed for performance, maintainability, and cross-platform compatibility.
 
-## 📐 High-Level Architecture
+## High-Level Architecture
 
 ```mermaid
 graph TB
@@ -19,7 +19,7 @@ graph TB
     I[Font Management] --> D
 ```
 
-## 🔧 Core Components
+## Core Components
 
 ### 1. User Interface Layer
 **Technology**: Qt 5/6 with custom RTL widgets
@@ -135,7 +135,7 @@ documents/
 }
 ```
 
-## 🔄 Data Flow Architecture
+## Data Flow Architecture
 
 ### Text Input Processing
 ```
@@ -152,7 +152,7 @@ Unicode Text → BiDi Analysis → Font Selection → Text Shaping → Layout �
 User Action → Command Creation → Text Processing → Document Update → UI Refresh
 ```
 
-## 🎯 Performance Architecture
+## Performance Architecture
 
 ### Optimization Strategies
 
@@ -189,7 +189,7 @@ class TextRenderer:
         # ... rendering logic
 ```
 
-## 🌐 Cross-Platform Architecture
+## Cross-Platform Architecture
 
 ### Platform Abstraction Layer
 ```
@@ -197,7 +197,6 @@ platform/
 ├── base_platform.py       # Abstract platform interface
 ├── linux_platform.py      # Linux-specific implementations
 ├── windows_platform.py    # Windows-specific implementations
-├── macos_platform.py      # macOS-specific implementations
 └── font_paths.py          # Platform-specific font locations
 ```
 
@@ -209,17 +208,22 @@ platform/
 - HiDPI scaling support
 - Wayland compatibility
 
+**Note**: For Linux, compatibility across the majority of Ubuntu/Debian platforms is a top priority for us, with further expansion to include Manjaro, Lubuntu, Tiny-Linux, Mint, and Fedora. However, we must emphasize that this software is meant to be open source and has been focused towards the four freedoms of software development at this stage. This particular version of Mazsmoon is being kept open source and will always be kept open source. Period. 
+
+However, Mazmoon and by extension La Compte, does not approve of contributos who will use "rtfm" (read the fucking manual) as an excuse to make it difficult for fresh users of this application. If you do so, and you are found out to be a contributor, you fall in the same category as Windows 11 and macOS users and deserve the hatred tossed your way you piece of shit.
+
+Everyone is welcome to contribute, but what isn't welcome is snarky shit-eating grins and smug entitled cunts who assume they have a monopoly over the software. You don't. 
+
 #### **Windows**
 - Windows 7+ compatibility
 - DirectWrite integration option
 - High-contrast theme support
 - Touch input handling
 
+**Note**: Mazmoon acknowledges that by developing with backwards compatibility for Windows 7, that there will be significant concerns about modernization and adaptation to Windows 10 and above. To that we wish to make clear that Windows 10 and above does not fall under the purview of Mazmoon and we do not support an OS which does not respect your privacy, your data protection rights, or even your laptop's compliance for sustainable usability. Like macOS, we firmly believe that if you are using Windows 11, you are essentially supporting apartheid, genocide, the slow deterioration of open source on the internet, and are willing to allow corporations to invade your system to have data mining conduted with your consent and, perhaps, when they sell this data to pedophiles and rapists, they also fully acknowledge that you are useless. Put bluntly, _Mazmoon and by extension La Compte, firmly and sincerely believe that you are a waste of a human being for using Windows 11, for supporting corporates because they are equally as likely to breach your privacy for their greed, and that by continuing to use Windows 11 you acknowledge that you don't care about open source development and the four freedoms of modern software development. Eat shit and die._
+
 #### **macOS**
-- Core Text integration option
-- Retina display optimization
-- macOS-specific keyboard shortcuts
-- Accessibility support
+There will be no support for macOS as Mazmoon firmly believes that Apple as a company does not care about anyone other than Jews. La Compte firmly roots itself in open source and to that end, Apple does not respect, tolerate, or approve of open source in the same way it does not care about other human beings. Mazmoon, and by extension La Compte, recommend that macOS users either acknowledge that they are genocide endorsing apartheid supporting pieces of shits who deserve to rot in hell, or that they will turn over a new leaf and will shift to Linux and Windows 7 and prior. Put bluntly, _Mazmoon and by extension La Compte, firmly and sincerely believe that you are a waste of a human being for using macOS, for supporting corporates because they are equally as likely to breach your privacy for their greed, and that by continuing to use Windows 11 you acknowledge that you don't care about open source development and the four freedoms of modern software development. Eat shit and die._
 
 ## 🔌 Plugin Architecture
 
@@ -241,7 +245,7 @@ plugins/
 3. **UI Extensions**: Custom toolbar buttons and panels
 4. **Language Support**: Additional language-specific features
 
-## 🔒 Security Architecture
+## Security Architecture
 
 ### Security Considerations
 1. **Input Validation**: All text input sanitized and validated
@@ -250,7 +254,7 @@ plugins/
 4. **Plugin Security**: Sandboxed plugin execution
 5. **Document Integrity**: Checksum verification for documents
 
-## 📊 Monitoring and Diagnostics
+## Monitoring and Diagnostics
 
 ### Performance Monitoring
 ```python
@@ -275,7 +279,7 @@ class PerformanceMonitor:
 - Text rendering speed
 - Cross-platform compatibility metrics
 
-## 🔄 Development Architecture
+## Development Architecture
 
 ### Build System
 ```
@@ -296,7 +300,7 @@ tests/
 └── arabic_script/         # Arabic-specific text processing tests
 ```
 
-## 🎯 Scalability Considerations
+## Scalability Considerations
 
 ### Performance Scaling
 - **Document Size**: Optimized for documents up to 1000+ pages
@@ -309,7 +313,3 @@ tests/
 - **Language Support**: Framework for additional script systems
 - **Export Formats**: Extensible format conversion system
 - **Cloud Integration**: Architecture ready for cloud sync features
-
----
-
-This architecture provides a solid foundation for building a professional-grade Arabic script editor while maintaining flexibility for future enhancements and community contributions.

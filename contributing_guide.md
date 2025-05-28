@@ -215,7 +215,7 @@ Any ideas on how this could be implemented?
 Screenshots, mockups, or examples if applicable.
 ```
 
-## 🏆 Recognition
+## Recognition
 
 Contributors will be recognized in:
 - **Contributors section** of README.md
@@ -223,7 +223,7 @@ Contributors will be recognized in:
 - **Release notes** for significant contributions
 - **Special recognition** for outstanding contributions
 
-## 📞 Communication
+## Communication
 
 ### Primary Channels
 - **GitHub Issues**: Bug reports, feature requests, discussions
@@ -267,4 +267,4 @@ If you need help getting started or have questions:
 
 ---
 
-Thank you for contributing to La Compte Arabic Script Editor! Your contributions help make Arabic text editing better for everyone. 🌟
+Thank you for contributing to La Compte Arabic Script Editor! Your contributions help make Arabic text editing better for everyone.

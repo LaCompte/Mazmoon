@@ -1,10 +1,10 @@
-# Contributing to La Compte Arabic Script Editor
+# Contributing to Mazmoon
 
-Thank you for your interest in contributing to the La Compte Arabic Script Editor! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to Mazmoon! This document provides guidelines and information for contributors.
 
 ## Project Vision
 
-We're building a modern, Unicode-based office suite that serves Arabic script language users with professional-grade tools while maintaining familiar workflows. Our goal is to create the fastest, most intuitive Arabic text editor that works seamlessly across platforms.
+We're building a modern, Unicode-based office suite that serves Urdu and Arabic script language users with professional-grade tools while maintaining familiar workflows. Our goal is to create the fastest, most intuitive Arabic text editor that works seamlessly across platforms.
 
 ## Ways to Contribute
 
@@ -153,11 +153,12 @@ python -m pytest tests/ --cov=src --cov-report=html
 ## Localization Guidelines
 
 ### Supported Languages
-- **English** (primary)
+- **Urdu** (اردو) (primary)
 - **Arabic** (العربية)
-- **Urdu** (اردو)
 - **Farsi** (فارسی)
 - **Additional languages welcome**
+
+English is available as the secondary language, with support for non-English language also being taken into account.
 
 ### Translation Process
 1. Use **gettext** for string internationalization
@@ -231,8 +232,8 @@ Contributors will be recognized in:
 - **Pull Request Reviews**: Code review and feedback
 
 ### Communication Guidelines
-- **Be respectful** and inclusive
-- **Use English** for primary communication
+- **Tolerance** - we acknowledge that there are different tiers of users online. Mazmoon welcomes the majority of them so long as they are not smug pricks. Open source can only work so long as we contribute together.
+- **Whilst the primary communication is in English** Mazmoon does not limit users from speaking multiple langugaes. You are welcome to use whatever you are comfortable with, as long as you are willing to include a translation in English at the bottom. We have ChatGPT, Claude, Gemini, Meta, Copilot and Deepseek - honestly, you could just ask them to write a translation for you. If that's going to be an issue, write in your native language and then end the contribution with (k-u-C/Cgpt/DS/M/G/Cp) and I'll look into which one to use. 
 - **Provide context** for technical discussions
 - **Ask questions** if anything is unclear
 
@@ -240,15 +241,17 @@ Contributors will be recognized in:
 
 ### Our Standards
 - **Respectful communication** with all community members
+- **Supporting Open Source** across the board especially
 - **Constructive feedback** in code reviews and discussions
 - **Inclusive environment** welcoming contributors of all backgrounds
 - **Focus on collaboration** and learning
 
 ### Unacceptable Behavior
-- Harassment, discrimination, or offensive language
+- Harassment, discrimination, or offensive language. Unless it is directed at macOS and Windows 11 - then you are welcome to use whatever you want. Mazmoon does not approve of these corporate greed baits anyway.
+- Support for macOS and Windows 11. We do not care about those platforms and are willing to bear the consequences for it.
 - Personal attacks or trolling
 - Spam or irrelevant content
-- Violation of others' privacy
+- Violation of others' privacy.
 
 ## Getting Help
 
@@ -267,4 +270,4 @@ If you need help getting started or have questions:
 
 ---
 
-Thank you for contributing to La Compte Arabic Script Editor! Your contributions help make Arabic text editing better for everyone.
+Thank you for contributing to Mazmoon! Your contributions help make Urdu and Arabic office applications better for everyone.

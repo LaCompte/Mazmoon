@@ -2,11 +2,11 @@
 
 Thank you for your interest in contributing to the La Compte Arabic Script Editor! This document provides guidelines and information for contributors.
 
-## 🎯 Project Vision
+## Project Vision
 
 We're building a modern, Unicode-based office suite that serves Arabic script language users with professional-grade tools while maintaining familiar workflows. Our goal is to create the fastest, most intuitive Arabic text editor that works seamlessly across platforms.
 
-## 🤝 Ways to Contribute
+## Ways to Contribute
 
 ### 1. Code Development
 - **Core Engine**: Text processing, RTL algorithms, Unicode handling
@@ -33,7 +33,7 @@ We're building a modern, Unicode-based office suite that serves Arabic script la
 - **Accessibility**: Screen reader support, keyboard navigation
 - **User Research**: Workflow analysis, feature requirements
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Development Environment Setup
 
@@ -71,7 +71,7 @@ We're building a modern, Unicode-based office suite that serves Arabic script la
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
-## 📋 Coding Standards
+## Coding Standards
 
 ### Python Code Style
 - Follow **PEP 8** style guidelines
@@ -107,7 +107,7 @@ def process_arabic_text(text: str, font_name: str) -> ProcessedText:
     pass
 ```
 
-## 🧪 Testing Guidelines
+## Testing Guidelines
 
 ### Test Categories
 1. **Unit Tests**: Individual function and class testing
@@ -150,7 +150,7 @@ python -m pytest tests/ --cov=src --cov-report=html
 - **Screenshots**: Include UI screenshots for user guides
 - **Diagrams**: Use Mermaid for architecture diagrams
 
-## 🌍 Localization Guidelines
+## Localization Guidelines
 
 ### Supported Languages
 - **English** (primary)
@@ -165,7 +165,7 @@ python -m pytest tests/ --cov=src --cov-report=html
 3. Test **RTL layout** for Arabic script languages
 4. Consider **text expansion** in UI design
 
-## 🐛 Bug Reports
+## Bug Reports
 
 ### Before Submitting
 - **Search existing issues** to avoid duplicates
@@ -198,7 +198,7 @@ What actually happened?
 If applicable, include the Arabic text that caused the issue.
 ```
 
-## 💡 Feature Requests
+## Feature Requests
 
 ### Feature Request Template
 ```markdown
@@ -236,7 +236,7 @@ Contributors will be recognized in:
 - **Provide context** for technical discussions
 - **Ask questions** if anything is unclear
 
-## 📜 Code of Conduct
+## Code of Conduct
 
 ### Our Standards
 - **Respectful communication** with all community members
@@ -250,7 +250,7 @@ Contributors will be recognized in:
 - Spam or irrelevant content
 - Violation of others' privacy
 
-## 🎉 Getting Help
+## Getting Help
 
 ### Resources
 - **Documentation**: Check docs/ directory for guides

@@ -14,8 +14,12 @@ public:
 protected:
     void keyPressEvent(QKeyEvent *event) override;
 
+private slots:
+    void onCursorPositionChanged();
+
 private:
     void setupEditor();
+    void handleUrduTextInput(const QString &text);
 };
 
 #endif // URDUTEXTEDIT_H

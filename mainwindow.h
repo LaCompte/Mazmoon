@@ -3,9 +3,13 @@
 
 #include <QMainWindow>
 #include <QLabel>
-#include <QTextEdit>  // Change from urdutextedit.h to QTextEdit
-#include "ribbonwidget.h"
-// Remove: #include "urdutextedit.h"
+#include <QTextEdit>
+#include "urdutextedit.h"
+#include <QMenuBar>
+#include <QToolBar>
+#include <QFontComboBox>
+#include <QSpinBox>
+#include <QAction>
 
 class MainWindow : public QMainWindow
 {
@@ -16,15 +20,27 @@ public:
     ~MainWindow();
 
 private slots:
-    void onRibbonAction(const QString &action);
+    void newDocument();
+    void openDocument();
+    void saveDocument();
+    void zoomIn();
+    void zoomOut();
+    void toggleBold();
+    void toggleItalic();
+    void toggleUnderline();
+    void onFontChanged(const QFont &font);
+    void onFontSizeChanged(int size);
 
 private:
-    RibbonWidget *ribbon;
-    QTextEdit *textEditor;  // Change from UrduTextEdit* to QTextEdit*
+    UrduTextEdit *textEditor;
     QLabel *statusLabel;
+    QFontComboBox *fontCombo;
+    QSpinBox *fontSizeSpinBox;
 
     void setupUI();
     void setupStatusBar();
+    void createMenus();
+    void createToolbar();
 };
 
 #endif // MAINWINDOW_H

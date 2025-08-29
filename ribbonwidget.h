@@ -27,6 +27,8 @@ private slots:
     void onFontSizeChanged(int size);
 
 private:
+    QWidget* createColumn(const QString &title, int width, int height);
+    QPushButton* createSmallButton(const QString &text);
     QVBoxLayout *mainLayout;
     QTabWidget *tabWidget;
     QFontComboBox *fontCombo;

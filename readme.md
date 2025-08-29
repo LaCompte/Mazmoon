@@ -1,6 +1,6 @@
-# Mazmoon (مضمون) - Modern Urdu Text Editor
+# Mazmoon (مضمون) - Open Source Office Suite for Urdu Language
 
-A modern, open-source text editor specifically designed for Urdu and Arabic script languages, combining the familiar typing experience of InPage with contemporary software architecture and Unicode standards.
+A modern, open-source Office Suite specifically designed for Urdu and Arabic script languages, combining the familiar typing experience of InPage with contemporary software architecture and Unicode standards.
 
 ## Project Vision
 
@@ -35,6 +35,8 @@ Mazmoon aims to create an ultra-lightweight, high-performance text editor that s
 - Basic Qt text widget with Urdu support
 - System keyboard integration
 - Initial typing functionality testing
+
+Updated Week 1 details are available in our latest branch.
 
 ## Features
 

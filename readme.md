@@ -36,6 +36,8 @@ Mazmoon aims to create an ultra-lightweight, high-performance text editor that s
 - System keyboard integration
 - Initial typing functionality testing
 
+Update 29 August 2025: Week 1 of Phase 2 Completed today. 
+
 ## Features
 
 ### Core Text Processing

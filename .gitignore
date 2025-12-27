@@ -214,3 +214,6 @@ dist/
 # Virtual environment (alternative names)
 arabic-env/
 arabic-script-env/
+
+# Sample work directory (not for repo)
+sample work (to be updated)/
